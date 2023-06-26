@@ -43,13 +43,13 @@ Xumm Promise will be pending until reconnect. Delay in showing next step.
 
 ## Connection error after signing Burn transaction
 
-At this point NFT is burned and user fulfilled its intent, no additional action is requred of user, but xApp will try to display confirmation information.
+At this point NFT is burned and user fulfilled its intent, no additional action is required of user, but xApp will try to display confirmation information.
 
 Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification.  On connection error, "Retry action" button will be shown which user can press to retry verification.
 
 ## User signs Escrow with different account
 
-Memo field contains reference session ID which will be checked against burn tranaction in background. User can continue to next step.
+Memo field contains reference session ID which will be checked against burn transaction in background. User can continue to next step.
 
 ## User signs Burn transaction with different account
 
@@ -61,7 +61,7 @@ Memo field contains reference session ID which will be checked against burn tran
 
 ## Viewing account has very large amount of NFTs
 
-There is harcoded limit of 10 pages of max 400 NFTs per page which can be loaded with this xApp. Potential max upper limit of NFTs that can be pulled is 4000.
+There is hard-coded limit of 10 pages of max 400 NFTs per page which can be loaded with this xApp. Potential max upper limit of NFTs that can be pulled is 4000.
 
 ## Worst case scenario
 
