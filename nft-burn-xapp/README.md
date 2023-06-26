@@ -14,5 +14,5 @@ description: >-
 
 ## How to run it?
 
-To run this app you will need [**Xumm wallet**](https://xumm.app/) installed on your device, available on iOS and Android. You will also need full access to XRP account and have NTF on that account.
+To run this app you will need [**Xumm wallet**](https://xumm.app/) installed on your device, available on iOS and Android. You will also need full access to XRP account and have NFT on that account.
 
