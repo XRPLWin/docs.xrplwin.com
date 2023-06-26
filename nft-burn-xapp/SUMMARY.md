@@ -6,4 +6,4 @@
 
 * [About NFT Burn xApp](README.md)
 * [How it works?](overview/how-it-works.md)
-* [Quality assurance](overview/quality-assurance.md)
+* [Failover scenarios](overview/failover-scenarios.md)
