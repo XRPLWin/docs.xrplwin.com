@@ -15,7 +15,7 @@ Full access accounts are allowed to use Full xApp.
 
 ## XRPLWin CDN goes offline
 
-<table data-view="cards" data-full-width="false"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:green;">Functional</mark></td></tr><tr><td>Display</td><td><mark style="color:orange;">Impaired</mark></td></tr><tr><td>Overall status</td><td><mark style="color:green;">Non-critical</mark></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:green;">Functional</mark></td></tr><tr><td>Display</td><td><mark style="color:orange;">Impaired</mark></td></tr><tr><td>Overall status</td><td><mark style="color:green;">Functional</mark></td></tr></tbody></table>
 
 If CDN goes offline, user can see list of NFTs, user can see NFT ID but not Image or title. Filtering wont work.
 
@@ -29,3 +29,14 @@ If Payment processor goes offline, xApp will not be affected. Pending Escrows ma
 
 <table data-view="cards"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Display</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Overall status</td><td><mark style="color:red;">Critical</mark></td></tr></tbody></table>
 
+## Connection error upon opening xApp
+
+Reload button displayed, to reload list of NFTs.
+
+## Connection error after signing Escrow transaction
+
+Xumm Promise will be pending until reconnect. Delay in showing next step.
+
+## Connection error after signing Burn transaction
+
+Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification. At this point NFT is burned. On connection error, "Retry action" button will be shown which user can press to retry verification.
