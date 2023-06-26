@@ -31,7 +31,11 @@ If Payment processor goes offline, xApp will not be affected. Pending Escrows ma
 
 ## Connection error upon opening xApp
 
-Reload button displayed, to reload list of NFTs.
+Reload button displayed, to reload list of NFTs. User can re-open xApp.
+
+## Slow internet connection
+
+This might show as delayed rendering of NFT metadata. User actions are not blocked.
 
 ## Connection error after signing Escrow transaction
 
@@ -39,4 +43,10 @@ Xumm Promise will be pending until reconnect. Delay in showing next step.
 
 ## Connection error after signing Burn transaction
 
-Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification. At this point NFT is burned. On connection error, "Retry action" button will be shown which user can press to retry verification.
+At this point NFT is burned and user fulfilled its intent, no additional action is requred of user, but xApp will try to display confirmation information.
+
+Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification.  On connection error, "Retry action" button will be shown which user can press to retry verification.
+
+## Worst case scenario
+
+User burns single token and can not continue to burn another with the same Service Fee.
