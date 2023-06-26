@@ -4,7 +4,7 @@ description: >-
   burn it nothing more nothing less.
 ---
 
-# About xApp
+# About NFT Burn xApp
 
 {% hint style="danger" %}
 <mark style="color:red;">**XRPLWin is not responsible if you remove wrong NFT!**</mark>
@@ -16,3 +16,8 @@ description: >-
 
 To run this app you will need [**Xumm wallet**](https://xumm.app/) installed on your device, available on iOS and Android. You will also need full access to XRP account and have NFT on that account.
 
+// xApp link here - TODO
+
+## Who is this for?
+
+This xApp is intended for personal use.
