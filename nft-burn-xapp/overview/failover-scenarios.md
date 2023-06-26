@@ -4,7 +4,7 @@ description: >-
   run smoothly. Keep in mind this might be a bit technical.
 ---
 
-# Quality assurance
+# Failover scenarios
 
 Firstly xApp needs active internet connection on your device. This xApp uses combination of JS events and multithreading tasks (promises) to deliver smooth experience for end-user. Lets explore fail scenarios outlined below.
 
@@ -17,7 +17,7 @@ Full access accounts are allowed to use Full xApp.
 
 <table data-view="cards" data-full-width="false"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:green;">Functional</mark></td></tr><tr><td>Display</td><td><mark style="color:orange;">Impaired</mark></td></tr><tr><td>Overall status</td><td><mark style="color:green;">Functional</mark></td></tr></tbody></table>
 
-If CDN goes offline, user can see list of NFTs, user can see NFT ID but not Image or title. Filtering wont work.
+If CDN goes offline, user can see list of NFTs, user can see NFT IDs but not Image or Title. Filtering won't work.
 
 ## XRPLWin Payment processor goes offline
 
@@ -28,6 +28,8 @@ If Payment processor goes offline, xApp will not be affected. Pending Escrows ma
 ## XRPLWin xApp server goes down
 
 <table data-view="cards"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Display</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Overall status</td><td><mark style="color:red;">Critical</mark></td></tr></tbody></table>
+
+This scenario only applies to initially loading xApp, when xApp loads fully it does not communicate anymore with xApp server.
 
 ## Connection error upon opening xApp
 

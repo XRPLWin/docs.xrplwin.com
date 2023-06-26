@@ -13,7 +13,7 @@ Additional metadata from CDN servers are then overlay-ed over pulled NFTs includ
 Press on NFT you wish to burn to select it, then details will be displayed on screen: Meta image, Meta title, NFTokenID, Issuer, Collection and Serial number.
 
 {% hint style="info" %}
-You can press image to zoom image or animation.
+You can press graphics to zoom image or animation.
 {% endhint %}
 
 ## Service Fee (Escrow)
@@ -42,6 +42,6 @@ Press "<mark style="color:red;">Burn</mark>" button to compose `NFTokenBurn` Tra
 
 ## Done
 
-After you sign Burn transaction, xApp will start verifying on XRPL that transaction ID to check if its actually executed with Success code. If yes "Success!" page will be shown.
+After you sign Burn transaction, xApp will start verifying Transaction ID on XRPL to check if its actually executed with Success code. If yes "Success!" page will be shown.
 
 You can now burn another token or quit xApp. Quitting xApp will reset Service Fee and you will have to create another Escrow to continue use xApp.
