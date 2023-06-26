@@ -4,4 +4,4 @@
 
 ## Overview
 
-* [xApp overview](README.md)
+* [About xApp](README.md)
