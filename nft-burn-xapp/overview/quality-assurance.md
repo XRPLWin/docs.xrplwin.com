@@ -47,6 +47,22 @@ At this point NFT is burned and user fulfilled its intent, no additional action 
 
 Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification.  On connection error, "Retry action" button will be shown which user can press to retry verification.
 
+## User signs Escrow with different account
+
+Memo field contains reference session ID which will be checked against burn tranaction in background. User can continue to next step.
+
+## User signs Burn transaction with different account
+
+`tecNO_PERMISSION` code will be thrown in Xumm, xApp handles this by unlocking burn button so user can try again or cancel.
+
+## User signs Burn transaction on unexisting NFTokenID
+
+`tecNO_ENTRY` code will be  thrown in Xumm, xApp handles this by unlocking burn button so user can try again or cancel.
+
+## Viewing account has very large amount of NFTs
+
+There is harcoded limit of 10 pages of max 400 NFTs per page which can be loaded with this xApp. Potential max upper limit of NFTs that can be pulled is 4000.
+
 ## Worst case scenario
 
 User burns single token and can not continue to burn another with the same Service Fee.
