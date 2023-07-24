@@ -6,7 +6,7 @@ description: >-
 
 # Failover scenarios
 
-Firstly xApp needs active internet connection on your device. This xApp uses combination of JS events and multithreading tasks (promises) to deliver smooth experience for end-user. Lets explore fail scenarios outlined below.
+Firstly xApp needs active internet connection on your device. This xApp uses combination of JS events and promises to deliver smooth experience for end-user. Lets explore fail scenarios outlined below.
 
 ## Access
 
@@ -65,6 +65,3 @@ Memo field contains reference session ID which will be checked against burn tran
 
 There is hard-coded limit of 10 pages of max 400 NFTs per page which can be loaded with this xApp. Potential max upper limit of NFTs that can be pulled is 4000.
 
-## Worst case scenario
-
-User burns single token and can not continue to burn another with the same Service Fee.

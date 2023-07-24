@@ -18,21 +18,25 @@ You can press graphics to zoom image or animation.
 
 ## Service Fee (Escrow)
 
-To use xApp service you will need to escrow (reserve) **2 XRP**. Note that this will temporary add additional _2 XRP_ to your reserve until escrow is Finished or Canceled.
+To use xApp service you will need to escrow (reserve) **2 XRP**. Note that this will temporary add additional _2 XRP_ to your reserve until escrow is Finished or Canceled. Service Fee is shared between your rAccounts on same device. For single Fee you can burn NFTs on multiple accounts.
 
 After you burn token, XRPLWin's background system will check proof of burn and execute `EscrowFinish` transaction against your authorized Escrow.
 
-After 48h (two days) you can Cancel unfulfilled Escrows yourself via Xumm app.
+After 48h (two days) automated system will cancel expired escrows. Also you can Cancel unfulfilled Escrows yourself via Xumm app.
+
+#### Burn indicator
+
+After first sucessful burn, on the top of the screen burn indicator will be shown to tell you how much more tokens you can burn, before paying new Service Fee.
 
 #### Why Escrow and not Direct Payment?
 
 Escrow adds more flexible way of paying for service. With escrow (in case of XRPLWin's payment processor goes down or you actually do not want to burn any token) 2 XRP can be returned to you without any outside intervention (eg. need to contact XRPLWin).
 
-Let's say we used Direct Payment instead of Escrow, you would send 2 XRP right away, and later on you change your mind, device goes down, app gets stuck or any other reason. You will have to contact XRPLWin to issue refund.
+Let's say we used Direct Payment instead of Escrow, you would send 2 XRP right away, and later on you change your mind, device goes down, app gets stuck or any other reason. You would have to contact XRPLWin to issue refund.
 
 ## Burning NFT
 
-Next step in burn process is last step, selected NFT with Image and Title is once again displayed. You need to press "I understand this cannot be undone" if you wish to continue. "Burn" button will unlock.
+Next step in burn process is last step, selected NFT with Image and Title is once again displayed. You need to press "I understand this cannot be undone" if you wish to continue. "<mark style="color:red;">Burn</mark>" button will unlock.
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Always double check NFT ID before burning!**</mark>
@@ -44,4 +48,4 @@ Press "<mark style="color:red;">Burn</mark>" button to compose `NFTokenBurn` Tra
 
 After you sign Burn transaction, xApp will start verifying Transaction ID on XRPL to check if its actually executed with Success code. If yes "Success!" page will be shown.
 
-You can now burn another token or quit xApp. Quitting xApp will reset Service Fee and you will have to create another Escrow to continue use xApp.
+You can now burn another token or quit xApp to check burn transaction in transaction list.
