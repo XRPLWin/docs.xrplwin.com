@@ -19,12 +19,6 @@ Full access accounts are allowed to use Full xApp.
 
 If CDN goes offline, user can see list of NFTs, user can see NFT IDs but not Image or Title. Filtering won't work.
 
-## XRPLWin Payment processor goes offline
-
-<table data-view="cards"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:green;">Functional</mark></td></tr><tr><td>Display</td><td><mark style="color:green;">Functional</mark></td></tr><tr><td>Overall status</td><td><mark style="color:green;">Functional</mark></td></tr></tbody></table>
-
-If Payment processor goes offline, xApp will not be affected. Pending Escrows may not be furfilled within 2 (two) days and user can choose to Cancel them on XRPLWin's expense.
-
 ## XRPLWin xApp server goes down
 
 <table data-view="cards"><thead><tr><th>Subject</th><th>Result</th></tr></thead><tbody><tr><td>xApp Functionality</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Display</td><td><mark style="color:red;">Offline</mark></td></tr><tr><td>Overall status</td><td><mark style="color:red;">Critical</mark></td></tr></tbody></table>

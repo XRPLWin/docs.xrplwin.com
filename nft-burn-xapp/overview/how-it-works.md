@@ -16,23 +16,9 @@ Press on NFT you wish to burn to select it, then details will be displayed on sc
 You can press graphics to zoom image or animation.
 {% endhint %}
 
-## Service Fee (Escrow)
-
-To use xApp service you will need to escrow (reserve) **2 XRP**. Note that this will temporary add additional _2 XRP_ to your reserve until escrow is Finished or Canceled. Service Fee is shared between your rAccounts on same device. For single Fee you can burn NFTs on multiple accounts.
-
-After you burn token, XRPLWin's background system will check proof of burn and execute `EscrowFinish` transaction against your authorized Escrow.
-
-After 48h (two days) automated system will cancel expired escrows. Also you can Cancel unfulfilled Escrows yourself via Xumm app.
-
 #### Burn indicator
 
-After first sucessful burn, on the top of the screen burn indicator will be shown to tell you how much more tokens you can burn, before paying new Service Fee.
-
-#### Why Escrow and not Direct Payment?
-
-Escrow adds more flexible way of paying for service. With escrow (in case of XRPLWin's payment processor goes down or you actually do not want to burn any token) 2 XRP can be returned to you without any outside intervention (eg. need to contact XRPLWin).
-
-Let's say we used Direct Payment instead of Escrow, you would send 2 XRP right away, and later on you change your mind, device goes down, app gets stuck or any other reason. You would have to contact XRPLWin to issue refund.
+After first sucessful burn, on the top of the screen burn indicator will be shown to tell you how much more tokens you can burn, before restarting the xApp.
 
 ## Burning NFT
 
