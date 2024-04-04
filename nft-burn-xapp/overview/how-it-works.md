@@ -28,7 +28,7 @@ Next step in burn process is last step, selected NFT with Image and Title is onc
 <mark style="color:orange;">**Always double check NFT ID before burning!**</mark>
 {% endhint %}
 
-Press "<mark style="color:red;">Burn</mark>" button to compose `NFTokenBurn` Transaction and review it in Xumm before signing, after you sign this there is **no going back**.
+Press "<mark style="color:red;">Burn</mark>" button to compose `NFTokenBurn` Transaction and review it in Xaman before signing, after you sign this there is **no going back**.
 
 ## Done
 
