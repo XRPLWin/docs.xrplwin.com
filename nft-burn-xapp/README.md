@@ -14,7 +14,7 @@ description: >-
 
 ## How to run it?
 
-To run this app you will need [**Xumm wallet**](https://xumm.app/) installed on your device, available on iOS and Android. You will also need full access to XRP account and have NFT on that account.
+To run this app you will need [**Xaman wallet**](https://xumm.app) installed on your device, available on iOS and Android. You will also need full access to your account and have NFT on that account.
 
 ### [**Launch xApp now**](https://xumm.app/detect/xapp:xrplwin.nftburn) [👈](https://emojipedia.org/backhand-index-pointing-left/)&#x20;
 
