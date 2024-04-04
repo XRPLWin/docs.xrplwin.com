@@ -20,6 +20,11 @@ Prevent unsolicited transactions like Remit to reach your account.
 **Control**\
 Have more control over your account by blocking or allowing: Trust lines, Checks, Payment Channels, NFT Offers, or require Destination Tag.
 
+### How to run it?
+
+To run this app you will need [**Xaman wallet**](https://xumm.app) installed on your device, available on iOS and Android.\
+You also need full access to XRPL or Xahau account.
+
 ### Permissions
 
 #### Allow Incoming XRP/XAH
