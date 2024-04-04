@@ -8,10 +8,6 @@ description: >-
 
 This xApp is available on all networks **XRPL** and **Xahau**.
 
-{% hint style="info" %}
-Note: All flags offered in this xApp are reversible.
-{% endhint %}
-
 ### Why is it useful?
 
 **Jurisdiction & Taxing**\
@@ -24,6 +20,10 @@ Have more control over your account by blocking or allowing: Trust lines, Checks
 
 To run this app you will need [**Xaman wallet**](https://xumm.app) installed on your device, available on iOS and Android.\
 You also need full access to XRPL or Xahau account.
+
+{% hint style="info" %}
+Note: All flags offered in this xApp are reversible.
+{% endhint %}
 
 ### Permissions
 
