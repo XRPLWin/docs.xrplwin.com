@@ -24,7 +24,7 @@ You also need full access to XRPL or Xahau account.
 ### Permissions
 
 {% hint style="info" %}
-Note: All flags offered in this xApp are reversible.
+Note: All flag settings offered in this xApp are reversible.
 {% endhint %}
 
 #### Allow Incoming XRP/XAH
