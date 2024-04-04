@@ -6,15 +6,19 @@ description: >-
 
 # About
 
-This xApp is available on all networks XRPL and Xahau.\
-All flags offered in this xApp are reversible (non-permanent).
+This xApp is available on all networks **XRPL** and **Xahau**.
+
+{% hint style="info" %}
+Note: All flags offered in this xApp are reversible.
+{% endhint %}
 
 ### Why is it useful?
 
-**Jurisdiction & Taxing**: Prevent unsolicited transactions like Remit to reach your account.\
-**Control**: Have more control over your account by blocking or allowing: trustlines, Checks, Payment Channels, NFT Offers, or require Destination Tag.
+**Jurisdiction & Taxing**\
+Prevent unsolicited transactions like Remit to reach your account.
 
-
+**Control**\
+Have more control over your account by blocking or allowing: Trust lines, Checks, Payment Channels, NFT Offers, or require Destination Tag.
 
 ### Permissions
 
@@ -60,8 +64,7 @@ This control allows you to set or clear `asfRequireDest` flag on your account.
 
 If enabled incoming transactions must include Destination Tag. If you use account for business and want to track each transaction to match it with centralized database of your clients, enable this flag. Exchanges have asfRequireDest-enabled accounts to prevent deposits without destination tag.
 
-
-
 ### Maintainer
 
-**XRPLWin** ([xrplwin.com](https://xrplwin.com))
+**XRPLWin**\
+[xrplwin.com](https://xrplwin.com)\
