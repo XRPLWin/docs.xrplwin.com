@@ -35,13 +35,13 @@ This might show as delayed rendering of NFT metadata. User actions are not block
 
 ## Connection error after signing Escrow transaction
 
-Xumm Promise will be pending until reconnect. Delay in showing next step.
+Promise will be pending until reconnect. Delay in showing next step.
 
 ## Connection error after signing Burn transaction
 
 At this point NFT is burned and user fulfilled its intent, no additional action is required of user, but xApp will try to display confirmation information.
 
-Xumm Promise will be pending until reconnect. Delay in starting XRPL transaction verification.  On connection error, "Retry action" button will be shown which user can press to retry verification.
+Promise will be pending until reconnect. Delay in starting XRPL transaction verification.  On connection error, "Retry action" button will be shown which user can press to retry verification.
 
 ## User signs Escrow with different account
 
@@ -49,11 +49,11 @@ Memo field contains reference session ID which will be checked against burn tran
 
 ## User signs Burn transaction with different account
 
-`tecNO_PERMISSION` code will be thrown in Xumm, xApp handles this by unlocking burn button so user can try again or cancel.
+`tecNO_PERMISSION` code will be thrown in Xaman, xApp handles this by unlocking burn button so user can try again or cancel.
 
 ## User signs Burn transaction on unexisting NFTokenID
 
-`tecNO_ENTRY` code will be  thrown in Xumm, xApp handles this by unlocking burn button so user can try again or cancel.
+`tecNO_ENTRY` code will be  thrown in Xaman, xApp handles this by unlocking burn button so user can try again or cancel.
 
 ## Viewing account has very large amount of NFTs
 
