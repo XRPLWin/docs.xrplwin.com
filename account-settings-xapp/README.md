@@ -9,7 +9,7 @@ description: >-
 This xApp is available on all networks XRPL and Xahau.\
 All flags offered in this xApp are reversible (non-permanent).
 
-### Why is is useful?
+### Why is it useful?
 
 **Jurisdiction & Taxing**: Prevent unsolicited transactions like Remit to reach your account.\
 **Control**: Have more control over your account by blocking or allowing: trustlines, Checks, Payment Channels, NFT Offers, or require Destination Tag.
