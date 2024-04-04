@@ -4,7 +4,7 @@ description: >-
   permissions by adding or clearing flags from your account.
 ---
 
-# About Account Settings xApp
+# About
 
 This xApp is available on all networks XRPL and Xahau.\
 All flags offered in this xApp are reversible (non-permanent).
@@ -12,7 +12,7 @@ All flags offered in this xApp are reversible (non-permanent).
 ### Why is is useful?
 
 **Jurisdiction & Taxing**: Prevent unsolicited transactions like Remit to reach your account.\
-**Control**: Have more control over your account by blocking or allowing: trustlines, checks or NFT Offers, or require Destination Tag.
+**Control**: Have more control over your account by blocking or allowing: trustlines, Checks, Payment Channels, NFT Offers, or require Destination Tag.
 
 
 
@@ -28,7 +28,7 @@ Remove permission to advise users not to send native currency to this account. T
 
 This control allows you to set or clear `asfDisallowIncomingRemit` flag on your account.
 
-Remove permission to block incoming Remit transactions to this account. Anyone can send you Remit transaction which will allow them to send you URIToken (NFT on Xahau), IOU or XAH (native currency), even auto-create trustline(s). If you reside in country where each crypto transaction is considered taxable event it is recommended to remove this permission from this account.
+Remove permission to block incoming Remit transactions to this account. Anyone can send you Remit transaction which will allow them to send you URIToken (NFT on Xahau), IOU or XAH (native currency), even auto-create trustline(s). If you reside in country where each crypto transaction is considered taxable event it is recommended to remove this permission from your account.
 
 #### Allow Incoming Trustline
 
