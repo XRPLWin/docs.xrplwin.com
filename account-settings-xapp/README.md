@@ -21,11 +21,11 @@ Have more control over your account by blocking or allowing: Trust lines, Checks
 To run this app you will need [**Xaman wallet**](https://xumm.app) installed on your device, available on iOS and Android.\
 You also need full access to XRPL or Xahau account.
 
+### Permissions
+
 {% hint style="info" %}
 Note: All flags offered in this xApp are reversible.
 {% endhint %}
-
-### Permissions
 
 #### Allow Incoming XRP/XAH
 
