@@ -10,7 +10,7 @@ Firstly xApp needs active internet connection on your device. This xApp uses com
 
 ## Access
 
-Read-only XRP accounts in Xumm can view NFT list and details, but can not continue to Payment.\
+Read-only XRP accounts in Xaman can view NFT list and details, but can not continue to Payment.\
 Full access accounts are allowed to use Full xApp.
 
 ## XRPLWin CDN goes offline
