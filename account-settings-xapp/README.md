@@ -31,7 +31,7 @@ Note: All flag settings offered in this xApp are reversible.
 
 This control will allows you to set or clear `asfDisallowXRP` flag on your account.&#x20;
 
-Remove permission to advise users not to send native currency to your account. This rule is not enforced by the ledger protocol. Web wallets takes this flag into account when user tries to send native currency to asfDissalowXRP-enabled account and show warning to discourage users to send to that account.
+Remove permission to advise users not to send native currency to your account. This rule is not enforced by the ledger protocol. Web wallets takes this flag into account when user tries to send native currency to asfDisallowXRP-enabled account and show warning to discourage users to send to that account.
 
 #### Allow Incoming Remit (only XAHAU)
 
